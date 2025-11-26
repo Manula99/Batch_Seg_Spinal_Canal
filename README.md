@@ -29,6 +29,10 @@ conda install -c conda-forge spinalcordtoolbox
 
 # Or install individual dependencies
 pip install spinalcordtoolbox nibabel numpy matplotlib
+
+# Or use yaml file
+conda env create -f environment.yml
+
 ```
 
 Ensure SCT is properly installed and accessible in your Python environment.
